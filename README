@@ -1,3 +1,19 @@
+GPII Linux RFID User Listener
+=============================
+
+We've currently testing the following tags, and indicate which ones
+work. Notably we do not yet support the Ultralight tags, but could
+with a small bit of extra work, the blocks we read from are just at
+a different location on those tags.
+
+- Mifare Ultralight and Ultralight C: Not Working
+- Mifare Classic 1k: Working
+- Mifare Mini: Working
+
+This project is a branch of the PC/SC utilities by Ludovic Rousseau
+with additions and modifcations that are specific to the GPII. The
+original README and license information are preserved below.
+
 Some tools to be used with smart cards and PC/SC
 ================================================
 
